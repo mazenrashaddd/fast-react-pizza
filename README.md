@@ -1,16 +1,28 @@
-# React + Vite
+# 🍕 Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive pizza ordering web app built with **React**, **Redux Toolkit**, **React Router**, and **Tailwind CSS**.  
+Fast React Pizza allows users to browse a pizza menu, add or remove items from their cart, manage quantities, and place orders — all with a smooth, real-time experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🛒 **Cart Management:** Add, remove, and update pizzas in real-time using Redux Toolkit.  
+- 📦 **Dynamic State:** Keeps track of pizzas, quantities, and total prices automatically.  
+- 📍 **Geolocation Support:** Fetches the user’s location and converts it into a readable address for faster checkout.  
+- 🔁 **Order Flow:** Simple flow from menu → cart → order summary using React Router.  
+- ⚙️ **Reusable Components:** Clean, modular UI built with reusable components like `CartItem`, `Button`, `EmptyCart`, etc.  
+- 💅 **Responsive Design:** Styled with Tailwind CSS for a sleek and modern interface.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Purpose |
+|-------------|----------|
+| **React.js (Vite)** | Frontend framework |
+| **Redux Toolkit** | State management |
+| **React Router DOM** | Client-side routing |
+| **Tailwind CSS** | Styling and layout |
+| **Geolocation API** | Fetch user location |
+| **Reverse Geocoding** | Convert coordinates to addresses |

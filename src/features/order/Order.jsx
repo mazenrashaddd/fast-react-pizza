@@ -164,7 +164,7 @@ function Order() {
 
       {!priority && (
         <div className="flex justify-end">
-          <fetcher.Form>
+          <fetcher.Form method="PATCH">
             <Button variant="primary">Make Priority</Button>
           </fetcher.Form>
         </div>
